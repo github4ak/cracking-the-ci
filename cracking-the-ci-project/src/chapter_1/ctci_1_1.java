@@ -1,4 +1,4 @@
-package cracking_the_ci;
+package chapter_1;
 
 public class ctci_1_1 {
     
