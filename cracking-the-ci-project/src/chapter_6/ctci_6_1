@@ -1,0 +1,11 @@
+Solution to 6.1
+
+Take 1 pill from bottle 1, 2 pills from bottle 2 and so on,
+
+In the ideal case, if a pill weighed 1 g each, then the scale would have weighed n(n+1)/2 = 20(21)/2 =  210 grams
+
+But since we have a bottle with a pill which weighs 1.1 grams, if it was the nth bottle then n*1.1 is the sum of all pill weighs so,
+
+So, n*0.1 is the extra weight,
+
+So, Actual - 210 / 0.1 gives us N
