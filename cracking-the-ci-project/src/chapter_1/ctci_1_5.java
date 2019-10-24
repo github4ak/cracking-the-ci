@@ -46,11 +46,7 @@ public class ctci_1_5 {
 			}
 		}
 		
-		if(no_of_equals == a.length()) {
-			return true;
-		} else {
-			return false;
-		}
+		return no_of_equals == a.length() ? true : false;
 	}
 	
 	private static boolean isItOneAwayReplace(String a,String b) {
@@ -63,11 +59,7 @@ public class ctci_1_5 {
 			}
 		}
 		
-		if(no_of_replacements > 1) {
-			return false;
-		}
-		
-		return true;
+		return no_of_replacements > 1 ? false:true;
 	}
 	
 	public static void main(String args[]) {
