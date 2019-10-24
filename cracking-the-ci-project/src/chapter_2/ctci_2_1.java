@@ -26,25 +26,34 @@ public class ctci_2_1{
         Set<Integer> nodeData = new HashSet<>();
         
         Node head = myNode;
-        
+        Node last_but_one = null;
+        Node last = null;
         nodeData.add(myNode.data);
         
-        while(myNode.next != null){
-            if(nodeData.contains(myNode.next.data)){
+        while(myNode != null){
+        	
+        	if(myNode.next != null) {
+        		if(myNode.next.next != null) {
+        			last_but_one =  myNode;
+        		}
+        	}
+        	
+            if(myNode.next != null && nodeData.contains(myNode.next.data)){
                 System.out.println("\nDuplicate found : "+myNode.next.data);
                 Node temp = myNode.next;
                 myNode.next = temp.next;
                 temp = null;
-            }else{
+            }else if(myNode.next != null){
             nodeData.add(myNode.next.data);
             }
+            last = myNode;
             myNode = myNode.next;
         }
         
         //Last element check
-        if(nodeData.contains(myNode.data)){
-            System.out.println("Current element is "+myNode.data);
-            myNode = null;
+        if(nodeData.contains(last.data)){
+            System.out.println("Current element is "+last.data);
+            last_but_one.next = null;
         }
         
         System.out.println("Traversing the list");
