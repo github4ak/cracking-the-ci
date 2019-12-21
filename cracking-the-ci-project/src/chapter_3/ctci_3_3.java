@@ -14,6 +14,7 @@ public class ctci_3_3 {
 		ss.push(12);
 		ss.push(122);
 		ss.push(22);
+		ss.push(232);
 		
 		System.out.println("Popped element is "+ss.pop());
 		System.out.println("Popped element is "+ss.pop());
