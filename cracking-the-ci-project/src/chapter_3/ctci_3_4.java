@@ -8,6 +8,7 @@ public class ctci_3_4 {
 		q.push(1);
 		q.push(2);
 		q.push(3);
+		q.push(10);
 		
 		System.out.println("The peek element is "+q.peek());
 		
