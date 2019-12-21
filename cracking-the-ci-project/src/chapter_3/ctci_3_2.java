@@ -10,6 +10,7 @@ public class ctci_3_2 {
 		s.push(6);
 		s.push(3);
 		s.push(7);
+		s.push(12);
 		
 		System.out.println("The current minimum value is "+s.getMin());
 		
