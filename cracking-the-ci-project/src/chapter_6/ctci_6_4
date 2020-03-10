@@ -1,0 +1,7 @@
+Solution to 6.4
+
+Imp: The ants can synchronously move either anti / clock wise to never collide,
+
+So, for a triangle, that would be 2 * (1/2)^3 or (1/2)^2, so collision is 1 - (1/2)^2
+
+So, for a n-sided polygon, it would be 1 - (1/2)^(n-1)
