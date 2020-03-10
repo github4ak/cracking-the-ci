@@ -1,0 +1,19 @@
+Solution  to 6.2
+
+Probability of wining playing Game-1 = p
+
+Probability of wining playing Game-2 = 3*p^2*(1-p) + p^3
+
+So choose Game 1 over Game 2 when,
+
+p > 3p^2 - 2*p^3
+
+1 > 3p - 2p^2 
+
+2p^2 - 3p + 1 > 0
+
+(p - 1/2)(p - 1) > 0
+
+Since, p < 1 , second term will always be negative, so 
+
+(p - 1/2) < 0 for Game-1 to win or p < 0.5 - choose Game-1 else choose Game-2
