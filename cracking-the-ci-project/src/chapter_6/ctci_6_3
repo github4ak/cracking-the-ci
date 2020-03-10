@@ -1,0 +1,7 @@
+Solution to 6.3
+
+Argument regarding black-white chessboard and how diagonal are of same color.
+So, we would be left out with 30 black and 32 whites.
+
+And as each domino fits a white-black combination, and 31 of those can't fit the above 
+combination.
