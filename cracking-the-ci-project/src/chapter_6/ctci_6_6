@@ -1,0 +1,9 @@
+Solution to 6.6
+
+Imp: They don't know how many blue-eyed are there, but they know at least one is there
+
+1. Only 1, 1 night to leave
+
+2. 2 BE, first day they see each-other, if second day also see each-other, then leave on 2nd day
+
+3. So, on it will take n nights before all the n BE will leave, they will all leave the same night.
