@@ -1,0 +1,7 @@
+Solution to 6.9
+
+Each door will be toggled whenever we hit a factor of its.
+
+Only odd number of factor pairing will be left open, which happens in case of perfect squares.
+
+So, 10 will be open.
