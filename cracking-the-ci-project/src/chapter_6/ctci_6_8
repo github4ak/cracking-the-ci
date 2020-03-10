@@ -1,0 +1,11 @@
+Solution to 6.8
+
+Imp: Worst-case load balancing
+
+The idea is sum of drops(egg-1) + drops(egg-2) should be balanced,
+
+So, if we start with Egg-1 at Floor-X , then the next drop should be at Floor-X + (X-1) and so on,
+
+So, we see X + X - 1 + X - 2 + X - 3 + ... + 1 = 100
+
+Or, X(X+1)/2 = 100 ~ X is 13.65, logically argue for rounding up to 14.
