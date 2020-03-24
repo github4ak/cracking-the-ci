@@ -1,0 +1,14 @@
+The trick to find the ""required" length in O(log-n) is to
+multiply the size variable by 2, we while for
+
+a) elementAt(index) !=1 
+&&
+b) elementAt(index) < value
+
+--> index*=2;
+
+Then run the normal BS, with an extra check
+
+if(midEle > val or midEle == -1){
+	high = mid+1;
+}
