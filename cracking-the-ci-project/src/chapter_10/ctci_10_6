@@ -1,0 +1,4 @@
+The solution is a new sorting technique,
+
+External sort - Get data as small chunks - Few MBs sort them, merge all of these
+chunks one by one.
