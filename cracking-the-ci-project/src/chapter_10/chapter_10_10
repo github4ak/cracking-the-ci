@@ -1,0 +1,9 @@
+Search on BST
+
+Below is the pseudocode for getting the frequency.
+
+int getRank(Node node,int  x){
+	if x is node.data return node.leftSize()
+	if x is left of node, return getRank(node.left,x)
+	if x is right of node, return leftSize + getRank(node.right,x) + 1;
+}
