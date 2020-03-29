@@ -1,4 +1,4 @@
-package chapter_5;
+package chapter_05;
 
 import java.util.HashSet;
 import java.util.Iterator;

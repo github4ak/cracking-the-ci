@@ -1,4 +1,4 @@
-package chapter_5;
+package chapter_05;
 
 public class ctci_5_4 {
 

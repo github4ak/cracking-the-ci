@@ -1,4 +1,4 @@
-package chapter_8;
+package chapter_08;
 
 import java.util.Collections;
 import java.util.Comparator;

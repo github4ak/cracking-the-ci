@@ -1,4 +1,4 @@
-package chapter_8;
+package chapter_08;
 
 /* Copy pasted from https://tinyurl.com/yxnjbdr8 */
 

@@ -1,19 +1,17 @@
-package chapter_8;
+package chapter_08;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
-public class ctci_8_8 {
+public class ctci_8_7 {
 	
-	static Set<String> getPermutations(String s){
+	static ArrayList<String> getPermutations(String s){
 		
 		if(s == null) {
 			return null;
 		}
 		
-		Set<String> perms = new HashSet<>();
+		ArrayList<String> perms = new ArrayList<>();
 		
 		//Base-case:This is required
 		if(s.length() == 0) {
@@ -25,7 +23,7 @@ public class ctci_8_8 {
 		
 		String remainder = s.substring(1);
 		
-		Set<String> words = getPermutations(remainder);
+		ArrayList<String> words = getPermutations(remainder);
 		
 		for(String word:words) {
 			for(int j = 0; j <= word.length(); j++) {
@@ -45,13 +43,12 @@ public class ctci_8_8 {
 	
 	
 	public static void main(String[] args) {
-		String s = "aabcd";
-		Set<String> permutations = getPermutations(s);
+		String s = "abc";
+		ArrayList<String> permutations = getPermutations(s);
 		Iterator<String> it = permutations.iterator();
-		int i = 1;
+		
 		while(it.hasNext()) {
-			System.out.println(i+"."+it.next());
-			i++;
+			System.out.println(it.next());
 		}
 		
 	}

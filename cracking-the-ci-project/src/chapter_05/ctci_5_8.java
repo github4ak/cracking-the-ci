@@ -1,4 +1,4 @@
-package chapter_5;
+package chapter_05;
 
 //This seemed out of scope.
 // Copied from https://tinyurl.com/v3z5lc4

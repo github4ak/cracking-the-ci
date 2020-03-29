@@ -1,4 +1,4 @@
-package chapter_5;
+package chapter_05;
 
 // Simpler solution was to use a XOR and count the 1's
 public class ctci_5_6 {
