@@ -1,0 +1,10 @@
+Web Crawler - systematic browsing of www.
+
+Hashing  - visited or not visited
+
+The issue comes how to build signatures - i) URL alone is not good,
+ii) Content all can be expensive
+
+- degree of similarity - content and URL
+- queue websites to visit based on d-o-s
+- finishing - based on priority to be traversed
