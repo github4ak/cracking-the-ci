@@ -1,0 +1,8 @@
+Data-heavy system
+
+bank data synchronizer -> raw transaction data -> categorizer
+													|
+													|
+front end -> categorized transaction ---------------|				
+													|
+budget data -> budget analyzer-----------------------
