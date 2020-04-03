@@ -1,0 +1,5 @@
+Error in sales rank is fine.
+
+Sort data periodically (every 30 minutes) so that querying takes less time.
+
+Trade-offs for frequent writes.
