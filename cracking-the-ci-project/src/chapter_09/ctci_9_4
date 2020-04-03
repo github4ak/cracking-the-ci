@@ -1,0 +1,6 @@
+Duplicate URLs 10 billion
+
+- If we have enough memory hash tables
+
+i) Hash documents into different tables
+ii) Hash documents into different machines and use parallelism
